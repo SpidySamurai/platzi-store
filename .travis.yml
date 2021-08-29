@@ -15,8 +15,9 @@ script:
   - yarn build
 
 notifications:
+  slack: personalproje-blo4767:TDqItHEFgujDhXGgHEqT96aT
   email:
-    reciepients:
+    recipients:
     - javierchiortiz@gmail.com
     - javierchiortiz@hotmail.com
     on_success: always
